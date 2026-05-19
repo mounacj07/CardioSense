@@ -1,0 +1,5 @@
+World Health Organization (WHO) Guidelines for Cardiovascular Disease Prevention:
+- High blood pressure (hypertension) is a major risk factor for heart disease. A healthy blood pressure is typically around 120/80 mmHg. Blood pressure consistently above 140/90 mmHg requires medical management.
+- Elevated cholesterol, particularly LDL cholesterol above 130 mg/dL, contributes to plaque buildup in arteries. Total cholesterol should ideally be kept under 200 mg/dL.
+- A resting heart rate between 60 and 100 beats per minute is considered normal. A consistently elevated resting heart rate above 100 bpm may indicate underlying cardiovascular issues.
+- Prevention strategies include: at least 150 minutes of moderate-intensity aerobic physical activity per week, a diet rich in fruits, vegetables, and whole grains, and cessation of tobacco use.

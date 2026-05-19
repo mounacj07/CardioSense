@@ -1,0 +1,126 @@
+{
+  "prediction": {
+    "prediction": 1,
+    "confidence": 0.7,
+    "probabilities": [
+      0.3,
+      0.7
+    ]
+  },
+  "evidence": [
+    {
+      "content": "- Maintaining a healthy weight, limiting alcohol intake, and managing stress are critical lifestyle modifications to reduce the risk of heart attacks and stroke.\n- For individuals already identified as \"at risk\" of heart disease, medical professionals may prescribe statins to manage cholesterol or antihypertensives to manage blood pressure.",
+      "source": "cdc_guidelines.txt"
+    },
+    {
+      "content": "World Health Organization (WHO) Guidelines for Cardiovascular Disease Prevention:\n- High blood pressure (hypertension) is a major risk factor for heart disease. A healthy blood pressure is typically around 120/80 mmHg. Blood pressure consistently above 140/90 mmHg requires medical management.\n- Elevated cholesterol, particularly LDL cholesterol above 130 mg/dL, contributes to plaque buildup in arteries. Total cholesterol should ideally be kept under 200 mg/dL.",
+      "source": "who_guidelines.txt"
+    },
+    {
+      "content": "Centers for Disease Control and Prevention (CDC) Recommendations for Heart Health:\n- Regular monitoring of blood pressure is essential. Individuals with a reading over 130/80 mmHg are considered to have elevated blood pressure or hypertension stage 1.\n- High blood cholesterol has no symptoms, so it must be checked with a blood test. A total cholesterol level of 240 mg/dL or higher is considered high and significantly increases heart disease risk.",
+      "source": "cdc_guidelines.txt"
+    }
+  ],
+  "advice": "**Health Insight**\nBased on your ML prediction of High Risk (Confidence: 70.00%), it is essential to take immediate action to reduce your cardiovascular risk factors. Maintaining a healthy weight, limiting alcohol intake, and engaging in stress-reducing activities are crucial lifestyle modifications.\n\n**Actionable Advice:**\n\n1. **Establish a Healthy Weight**: Consider consulting with a registered dietitian or healthcare professional to create a personalized weight loss plan. Aim for a sustainable weight reduction of 1-2 pounds per week. Maintaining a healthy weight can help lower your blood pressure and cholesterol levels.\n \n2. **Engage in Regular Physical Activity**: Incorporate moderate-intensity aerobic exercises, such as brisk walking, for at least 150 minutes per week. Additionally, include strength-training exercises to build muscle mass. Aim for 3-5 sessions of moderate-intensity physical activity per week.\n\n3. **Manage Stress**: Practice stress-reducing techniques like meditation, yoga, or deep breathing exercises. These activities can help lower your blood pressure and cholesterol levels by reducing cortisol levels. Schedule at least 30 minutes of relaxation time each day to manage stress effectively.\n\nRemember, it is crucial to consult with a healthcare professional before starting any new diet or exercise program. They can provide personalized guidance and support to help you achieve your health goals.",
+  "grounding": {
+    "grounded": false,
+    "grounding_score": 0.5,
+    "verified_claims": 2,
+    "unsupported_claims": 2,
+    "flagged_claims": [
+      "Maintaining a healthy weight, limiting alcohol intake, and engaging in stress-reducing activities are crucial lifestyle modifications.",
+      "Manage Stress: Practice stress-reducing techniques like meditation, yoga, or deep breathing exercises."
+    ]
+  },
+  "trace": [
+    {
+      "step": "ML Prediction",
+      "timestamp": "21:58:58",
+      "status": "Running",
+      "summary": "Starting prediction...",
+      "details": {}
+    },
+    {
+      "step": "ML Prediction",
+      "timestamp": "21:58:58",
+      "status": "Success",
+      "summary": "Predicted: High Risk",
+      "details": {
+        "prediction": 1,
+        "confidence": 0.7,
+        "probabilities": [
+          0.3,
+          0.7
+        ]
+      }
+    },
+    {
+      "step": "Evidence Retrieval",
+      "timestamp": "21:58:58",
+      "status": "Running",
+      "summary": "Fetching relevant medical guidelines...",
+      "details": {}
+    },
+    {
+      "step": "Evidence Retrieval",
+      "timestamp": "21:58:58",
+      "status": "Success",
+      "summary": "Retrieved 3 document chunks.",
+      "details": {
+        "chunks": [
+          {
+            "content": "- Maintaining a healthy weight, limiting alcohol intake, and managing stress are critical lifestyle modifications to reduce the risk of heart attacks and stroke.\n- For individuals already identified as \"at risk\" of heart disease, medical professionals may prescribe statins to manage cholesterol or antihypertensives to manage blood pressure.",
+            "source": "cdc_guidelines.txt"
+          },
+          {
+            "content": "World Health Organization (WHO) Guidelines for Cardiovascular Disease Prevention:\n- High blood pressure (hypertension) is a major risk factor for heart disease. A healthy blood pressure is typically around 120/80 mmHg. Blood pressure consistently above 140/90 mmHg requires medical management.\n- Elevated cholesterol, particularly LDL cholesterol above 130 mg/dL, contributes to plaque buildup in arteries. Total cholesterol should ideally be kept under 200 mg/dL.",
+            "source": "who_guidelines.txt"
+          },
+          {
+            "content": "Centers for Disease Control and Prevention (CDC) Recommendations for Heart Health:\n- Regular monitoring of blood pressure is essential. Individuals with a reading over 130/80 mmHg are considered to have elevated blood pressure or hypertension stage 1.\n- High blood cholesterol has no symptoms, so it must be checked with a blood test. A total cholesterol level of 240 mg/dL or higher is considered high and significantly increases heart disease risk.",
+            "source": "cdc_guidelines.txt"
+          }
+        ]
+      }
+    },
+    {
+      "step": "Advice Generation",
+      "timestamp": "21:58:58",
+      "status": "Running",
+      "summary": "Generating personalized advice...",
+      "details": {}
+    },
+    {
+      "step": "Advice Generation",
+      "timestamp": "21:59:19",
+      "status": "Success",
+      "summary": "Advice generated.",
+      "details": {
+        "advice": "**Health Insight**\nBased on your ML prediction of High Risk (Confidence: 70.00%), it is essential to take immediate action to reduce your cardiovascular risk factors. Maintaining a healthy weight, limiting alcohol intake, and engaging in stress-reducing activities are crucial lifestyle modifications.\n\n**Actionable Advice:**\n\n1. **Establish a Healthy Weight**: Consider consulting with a registered dietitian or healthcare professional to create a personalized weight loss plan. Aim for a sustainable weight reduction of 1-2 pounds per week. Maintaining a healthy weight can help lower your blood pressure and cholesterol levels.\n \n2. **Engage in Regular Physical Activity**: Incorporate moderate-intensity aerobic exercises, such as brisk walking, for at least 150 minutes per week. Additionally, include strength-training exercises to build muscle mass. Aim for 3-5 sessions of moderate-intensity physical activity per week.\n\n3. **Manage Stress**: Practice stress-reducing techniques like meditation, yoga, or deep breathing exercises. These activities can help lower your blood pressure and cholesterol levels by reducing cortisol levels. Schedule at least 30 minutes of relaxation time each day to manage stress effectively.\n\nRemember, it is crucial to consult with a healthcare professional before starting any new diet or exercise program. They can provide personalized guidance and support to help you achieve your health goals."
+      }
+    },
+    {
+      "step": "Grounding Verification",
+      "timestamp": "21:59:19",
+      "status": "Running",
+      "summary": "Checking advice against retrieved evidence...",
+      "details": {}
+    },
+    {
+      "step": "Grounding Verification",
+      "timestamp": "21:59:39",
+      "status": "Warning",
+      "summary": "Score: 0.50",
+      "details": {
+        "grounded": false,
+        "grounding_score": 0.5,
+        "verified_claims": 2,
+        "unsupported_claims": 2,
+        "flagged_claims": [
+          "Maintaining a healthy weight, limiting alcohol intake, and engaging in stress-reducing activities are crucial lifestyle modifications.",
+          "Manage Stress: Practice stress-reducing techniques like meditation, yoga, or deep breathing exercises."
+        ]
+      }
+    }
+  ]
+}
