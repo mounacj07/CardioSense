@@ -1,3 +1,13 @@
+# In app startup / before serving
+from backend.rag.retriever import get_retriever
+from backend.ml.inference import load_models
+import ollama
+
+# Pre-warm everything
+load_models()
+get_retriever()
+ollama.chat(model='llama3.2:1b', messages=[{'role': 'user', 'content': 'ping'}])
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 from backend.agents.workflow import run_agentic_workflow
